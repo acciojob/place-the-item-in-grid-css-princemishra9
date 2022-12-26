@@ -1,2 +1,15 @@
+.holder{
+    display:grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: antiquewhite;
+   
+}
 
-/* Your CSS Code here. */
+.item{
+ background-color: blue;
+ height: auto;
+}
